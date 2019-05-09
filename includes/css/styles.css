@@ -1,0 +1,299 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Shahina Shaik
+Updated: May 2019
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+ 
+ navbar {
+   width: 100%
+ }
+ nav ul {
+   list-style: none;
+ }
+nav ul li {
+   display: inline-block;
+   padding-left: 20px;
+}
+.thumbnails {
+   margin-top: 100px;
+}
+thumbnail.img {
+   width: auto;
+}
+.thumbnail-img {
+   padding-top: 35px;
+}
+footer {
+   color: #222222;
+   font-size: 12px;
+   padding: 20px;
+}
+
+ .container-content a {
+   color: #e64809;
+    text-decoration: none;
+    font-weight: bold;
+
+} 
+
+
+.thumbnail-img {
+   margin-right: 20px;
+}
+.main {
+   margin-top: 100px;
+   margin-bottom: 400px;
+}
+.jumbotron {
+   background: #FFFFFF;
+}
+   
+.summary {
+   margin-top: 75px;
+}
+.summary h6 {
+   margin-bottom: 20px;
+}
+.heading-text {
+   font-size: 50px;
+   color: #ff6122;
+}
+.btn-orange {
+    color: #fff;
+    background-color: #ff6122;
+    border-color: transparent;
+    margin-right: 20px;
+}
+.hero-device {
+   margin-top: 75px;
+   background-image: url("../../images/wattpad-bg.png");
+   background-position: right top;
+   background-size: contain;
+      background-repeat: no-repeat;
+
+}
+
+#slide1 {
+   background-image: url("../../images/white.png");
+   background-size: 700px 900px;
+   background-repeat: no-repeat;
+}
+#slide1 {
+   background-image: url("../../images/white.png");
+   background-size: 700px 900px;
+   background-repeat: no-repeat;
+}
+#slide1 {
+   background-image: url("../../images/white.png");
+   background-size: 700px 900px;
+   background-repeat: no-repeat;
+}
+
+
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #0000ff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    background-color: #ffff99;
+}  
+
+
+
+#featuresHeading {
+   margin-bottom: 20px;
+}
+.feature {
+   text-align: left;
+
+}
+
+
+ /* background-color: #ff6122;
+    background:#ff6122; 
+*/
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body {
+   text-transform: capitalize;
+   color: #222222;
+   font-family: 'Open Sans', sans-serif;
+
+}
+.grid-content {
+   line-height: 0.5;
+   font-weight: bold;
+}
+f#footer-items {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+footer ul li {
+   text-decoration: none;
+   display: inline-block;
+   text-align: left;
+   margin-left: 20px;
+   margin-right: 20px;
+   
+}
+ul li a:hover {
+   text-decoration: underline;
+   text-transform: bold;
+}
+ul li a{
+   color:#222;
+}
+
+.feature img {
+   margin-bottom: 2px;  
+}
+
+
+/* 
+
+SEE YOUR STORY...
+bookGet published
+reelGet produced to movie or film
+tvGet adapted to a TV series
+ */
+ p {
+    margin-bottom: 40px;
+}
+img{
+   display: block;
+}
+
+.tabbed-pane {
+   margin-top: 100px;
+   margin-bottom: 300px;
+}
+.panel-heading {
+   color: #222;
+   text-transform: bold;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput {
+      width: 200px;
+   }
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+container-content{
+   padding: 20px;
+}
+.container-content a:hover {
+   font-weight: bolder;
+}
+#myCarousel {
+       padding: 76px 0 87px;
+}
+
+.carousel-item {
+   background-image: url("images/white.png");
+   margin-top: 
+}
+.carousel-item img{
+   float: left;
+}
+blockquote {
+   text-transform: bold;
+   font-weight: 600;   
+   font-size: 18px;
+}
+.author  {
+   margin-right: 20px;
+}
+.container {
+   background-image: url("../../images/againbut.png");
+}
+
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 992px) {
+.footer-links a{
+  font-size:4em;
+  padding:2rem;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-caption{
+   top:45%;
+  }
+
+
+.heading-text {
+   font-size: 10px;
+   color: #ff6122;
+}
+.btn-orange {
+    color: #fff;
+    background-color: #ff6122;
+    border-color: transparent;
+    margin-right: 20px;
+}
+
+}
+
+@media (max-width: 576px) {
+  .carousel-caption{
+   top:40%;
+  }
+.carousel-caption h1{
+  font-size: 250%;
+}
+.carousel-caption h3{
+  font-size: 110%;
+}
+.carousel-indicators{
+  display:none;
+}
+.display-4{
+  font-size:160%;
+}
+.footer-links a{
+  font-size: 2em;
+  padding: .7rem;
+}
+}
