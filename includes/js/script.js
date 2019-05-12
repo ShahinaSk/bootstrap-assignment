@@ -8,3 +8,6 @@ Updated: August 2013
 Notes:	 Hand coded for Udemy.com
 
 */
+// $('#myModal').on('shown.bs.modal', function () {
+//     $('#myInput').trigger('focus')
+//   })

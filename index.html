@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 	<head>
 		
 		<!-- Website Title & Description for Search Engine purposes -->
-		<title></title>
+		<title>Wattpad</title>
 		<meta name="description" content="">
 		
 		<!-- Mobile viewport optimized -->
@@ -13,338 +13,255 @@
 		<!-- Bootstrap CSS -->
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
-		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
 		<!-- Custom CSS -->
 		<link href="includes/css/styles.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		<script src="includes/js/script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
 		
 	</head>
-	<body>
-	
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<div class="container">
-			<img class="navbar-brand" src="images/wattpad-logo.png" alt="logo" />
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+	<body class="container-fluid">
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container">
+					<img class="navbar-brand" src="images/wattpad-logo.png" alt="logo" />
+				  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+				  	</button>				
+				  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+					  		<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Browse</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						  				<a class="dropdown-item" href="#">Action</a>
+						  				<a class="dropdown-item" href="#">Fiction</a>
+						  				<div class="dropdown-divider"></div>
+						  					<a class="dropdown-item" href="#">Historical Fiction</a>
+										</div>
+					  		</li>
+					  		<li class="nav-item">
+								<a class="nav-link" href="#">Writer Opportunities</a>
+					  		</li>
+					  		<li class="nav-item">
+								<a class="nav-link" href="#">Community</a>
+					  		</li>
+						</ul>
+						<form class="form-inline my-2 my-lg-0">
+					  		<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					  		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+						</form>
+					 	<ul class="navbar-nav mr-auto">
+						 	<li class="nav-item">
+								<a class="nav-link" href="#">Login </a>
+					  		</li>
+					 	</ul>
+					</div>
+				</div>
+			</nav><!--end navbar-->
+		</header><!---end header--->
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Browse
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Fiction</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Historical Fiction</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Writer Opportunities</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="#">Community</a>
-      </li>
-      
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-     <ul class="navbar-nav mr-auto">
-     	<li class="nav-item">
-        <a class="nav-link" href="#">Login </a>
-      </li>
-     </ul>
-		</div>
-  
-	</nav>
+		<!---------start jumbotron-------->
+		<section class="jumbotron jumbotron-fluid container-fluid">
+	  		<h1 class="display-4">Hi, We are Wattpad.</h1>
+	  		<p class="lead">The world's most-loved social storytelling platform</p>
+	  		<h6>Wattpad connects a global community of 70 million readers and writers through the power of story.</h6>
+	  		<p class="lead">
+				<a class="btn btn-primary btn-md btn-orange" data-toggle="modal" data-target="#myModal" role="button">start reading</a>
+				<a class="btn btn-primary btn-md btn-orange" data-toggle="modal" data-target="#myModal" role="button">start writing</a>
+			</p>  
+			<!-- Modal -->
+			<section class="modal fade" id="myModal" role="dialog">
+		  		<section class="modal-dialog"><!-- Modal content-->
+					<section class="modal-content">
+			  			<section class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Wattpad</h4>
+			  			</section>
+			  			<section class="modal-body">
+							<p>Thanks for visiting.</p>
+			  			</section>
+			  			<section class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  			</section>
+		  			</section>
+			
+		  		</section>
+	  		</section>  
+		</section><!--end jumbotron--->
 
-<!---------hero unit-------->
-<div class="row jumbotron">
-	<div class="container col-12 hero-unit">
-		<div class="summary col-6 panel float-left">
-			<p class="lead heading-text">Hi, we are Wattpad.</p>
-
-  		<h5>The world's most-loved social storytelling platform</h5>
-  		<h6>Wattpad connects a global community of 70 million readers and writers through the power of story.</h6>
-
-  		<p class="lead">
-    		<a class="btn btn-primary btn-md btn-orange" href="#" role="button">start reading</a>
-    		<a class="btn btn-primary btn-md btn-orange" href="#" role="button">start writing</a>
-  		</p>
-
-		</div>
-		<div class="hero-device col-6 float-right panel"><img src="images/hero-devices.png" alt="hero-devices"></div>
-		
-	</div>
-  
-</div><!--end hero--->
-
-
-
-<!--carousel begin-->
-<div class="container">
-	<!--myCarousel begin-->
+		<!--carousel begin-->
+		<section class="container">
+			<!--myCarousel begin-->
 			<div class="carousel slide" id="myCarousel" data-ride="carousel">
-
-	<!--Indicators-->
-	<ul class="carousel-indicators">
-		<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
-		<li data-slide-to="1" data-target="#myCarousel"></li>
-		<li data-slide-to="2" data-target="#myCarousel"></li>
-	</ul>
-
-	<!-- Wrapper for slides -->
-	<div class="carousel-inner" role="listbox">
-		<div class="carousel-item active" id="slide1">
-			
-				<img src="images/black-eye-large.png" alt="black-eye">
-				<blockquote>&#34;Being a Wattpad Star is the foundation for everything I do as a writer, from the behind the scenes wrangling to the big, game-changing projects&#34;</blockquote>
-				<p class="author">&#8722;&nbsp; BEN (@BENSOBIECK)</p>
-
-		</div><!-- end item -->
-		
-		<div class="carousel-item" id="slide2">
-				<img src="images/white-stag-large.png" alt="white-stag">
-								
-				 	<div class="carousel-caption">
-				 	<blockquote>&#34;Working with Wattpad Studios is like a dream. Not only do they care about your success, but also   	staying true to your vision.&#34;</blockquote>
-				 	<p class="author">&#8722;&nbsp;KARA BARBIERI (@PANDEAN)</p>
-				</div>
-				</div>
-				
-
-		</div><!-- end item -->
-
-		
-		<div class="carousel-item" id="slide3">
-				<div class="carousel-caption">
-					<img src="images/chasing-red-large.png" alt="chasing-red">
-				<blockquote>&#34;The Wattpad Stars Program gave me opportunities I never thought possible. It connected me to a world that I had only imagined. I do not know how else to say. It changed my life&#33;&#34;</blockquote>
-				<p class="author">&#8722;&nbsp;KARA BARBIERI (@PANDEAN)</p>
-				</div>
-				
-
-		</div><!-- end item -->
-	</div><!-- carousel-inner -->
+				<!-- start carousel Indicators-->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol><!--end carousel indicators--->
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox"><!--carousel item-1-->
+					<div class="carousel-item active" id="slide1" data-interval="10000">			
+						<img src="images/black-eye-large.png" alt="black-eye">
+						<blockquote>&#34;Being a Wattpad Star is the foundation for everything I do as a writer, from the behind the scenes wrangling to the big, game-changing projects&#34;</blockquote>
+						<p class="author">&#8722;&nbsp; BEN (@BENSOBIECK)</p>
+					</div><!-- end carousel item-1 -->		
+					<div class="carousel-item" id="slide2" data-interval="2000"><!--carousel item-2-->
+						<img src="images/white-stag-large.png" alt="white-stag">								
+				 			<blockquote>&#34;Working with Wattpad Studios is like a dream. Not only do they care about your success, but also   	staying true to your vision.&#34;</blockquote>
+							 <p class="author">&#8722;&nbsp;KARA BARBIERI (@PANDEAN)</p>
+							 
+					</div><!--end carousel item-2-->					
+					<div class="carousel-item" id="slide3" data-interval="2000"><!---->
+						<img src="images/chasing-red-large.png" alt="chasing-red">
+							<blockquote>&#34;The Wattpad Stars Program gave me opportunities I never thought possible. It connected me to a world that I had only imagined. I do not know how else to say. It changed my life&#33;&#34;</blockquote>
+							<p class="author">&#8722;&nbsp;KARA BARBIERI (@PANDEAN)</p>
+						
+					</div><!-- end carousel item-3 -->
+				</div><!-- carousel-inner -->
 	
-	<!-- Controls -->
-	<a class="carousel-control-prev" data-slide="prev" href="#myCarousel" role="button"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span>
-	</a>
-	
-	<a class="carousel-control-next-icon" data-slide="next" href="#myCarousel"><span class="carousel-control-prev"></span><span class="sr-only">Next</span>
-		</a>
-
+				<!-- Controls -->
+				<a class="carousel-control-prev" data-slide="prev" href="#myCarousel" role="button"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a>
+				<a class="carousel-control-next-icon" data-slide="next" href="#myCarousel"><span class="carousel-control-prev"></span><span class="sr-only">Next</span></a>
 			</div><!--end myCarousel-->
+		</section><!--end carousel-->
+
+		<section class="container"><!----2-col section----->
+			<div class="row col-sm-12 panel" id="featuresHeading1"><!--featuresHeading-->
+				<h3><strong>get discovered</strong></h3><!-- end col-12 -->
+			</div><!-- end featuresHeading -->
+			<div class="row two-col" id="features1"><!--feature-->
+				<div class="col-sm-5 panel feature">
+					<img src="images/pic_1_col_2.png" alt="novels">
+				</div><!-- end feature -->	
+				<div class="col-sm-7 panel feature"><!--feature---->
+					<h3 class="panel-title"><strong>Your original story could be the next blockbuster</strong></h3>
+					<p>Wattpad Studios discovers untapped, unsigned, and talented writers on Wattpad and connects them to global multi-media entertainment companies.&nbsp;<a href="#">Find out more..</a></p>
+					<h4><strong>SEE YOUR STORY...</strong></h4>
+					<div class="row col-sm-7">
+						<p><img src="images/book.png" alt="book">&nbsp;Get published</p>
+						<p><img src="images/reel.png" alt="reel">&nbsp;Get produced to movie or film</p>
+						<p><img src="images/tv.png" alt="tv">&nbsp;Get adapted to a TV series</p>
+					</div>
+				</div><!-- end feature -->	
+			</div><!-- end features -->
+		</section><!--end 2-col section-->
+
+		<!-- cards section-->	
+		<section class="container">
+			<div class="row container" id="featuresHeading2"><!--featuresHeading-->
+				<h3><strong>get discovered</strong></h3>
+			</div><!-- end featuresHeading -->
+			<div class="row three-col" id="features1"><!--features-->
+				<div class="panel col-sm-4 feature"><!--feature-1-->
+					<div class="panel-heading">
+						<h4 class="panel-title"><a href="#">Writing Contests</a></h4>
+					</div><!-- end panel-heading -->
+					<img src="images/writing-contests.png" alt="HTML5" class="img-circle">
+					<p>Enter writing contests to get published, win awards, and partner with global brands</p>
+				</div><!-- end feature -->	
+				<div class="col-sm-4 feature panel"><!--feature-2-->
+					<div class="panel-heading">
+						<h3 class="panel-title"><a href="#">the wattys</a></h3>
+					</div><!-- end panel-heading -->
+					<img src="images/wattys.png" alt="CSS3" class="img-circle">
+					<p>Wattpad’s annual awards program committed to celebrating the best stories around the world.</p>			
+				</div><!-- end feature -->	
+				<div class="col-sm-4 feature panel"><!--feature-->
+					<div class="panel-heading">
+						<h3 class="panel-title"><a href="#">Wattpad picks</a></h3>
+					</div><!-- end panel-heading -->
+					<img src="images/wp-picks.png" alt="Bootstrap 3" class="img-circle">
+					<p>Get featured on our hand-picked reading list.</p>			
+				</div><!-- end feature -->
+			</div><!-- end features -->
+		</section>
+
+		<!--how wattpad works-->
+		<section class="container-fluid howWattpadWorks row"><!--tabbed content-->
+			<section class="container">
+				<section class="row col-12">
+					<h4 class="display-4">how wattpad works</h4>
+				</section>
+				<section class="col-sm-4 panel float-left">
+				  <div class="list-group" id="list-tab" role="tablist">
+						<a class="list-group-item list-group-item-action active" id="list-create-list" data-toggle="list" href="#list-create" role="tab" aria-controls="create">create</a>
+						<a class="list-group-item list-group-item-action" id="list-build-list" data-toggle="list" href="#list-build" role="tab" aria-controls="build">build</a>
+						<a class="list-group-item list-group-item-action" id="list-amplify-list" data-toggle="list" href="#list-amplify" role="tab" aria-controls="amplify">amplify</a>
+				  </div>
+				</section>
+				<section class="col-sm-8 panel float-right">
+				  <section class="tab-content" id="nav-tabContent">
+						<section class="tab-pane fade show active" id="list-home-list" role="tabpanel" aria-labelledby="list-create-list">Share your unique voice and original story on Wattpad. Find the writing resources you need to craft a story only you can tell.</section>
+						<section class="tab-pane fade" id="list-build-list" role="tabpanel" aria-labelledby="list-build-list">Establish a global fan base as your story gains readership and momentum. Connect with other like-minded writers through storytelling.</section>
+						<section class="tab-pane fade" id="list-amplify-list" role="tabpanel" aria-labelledby="list-amplify-list">Gain Wattpad Star status and get your story published or adapted into film or television with Wattpad Studios and Wattpad Books!</section>
+				  </section>
+				</section>
+			</section>
+		</section>
+		<!--end hot wattpad works-->
+
+		<!---------start jumbotron-------->
+		<section class="modal-launch jumbotron container-fluid">
+				<h1 class="display-4">Take Wattpad With You</h1>
+				<p class="lead"><h6>Read and write anywhere, even offline.</h6>
+				<p class="lead"><a class="btn btn-primary btn-md btn-orange" data-toggle="modal" data-target="#myModal" role="button">start reading</a>
+			  	<a class="btn btn-primary btn-md btn-orange" data-toggle="modal" data-target="#myModal"  role="button">start writing</a></p>
+
+			<!-- Modal -->
+  			<section class="modal fade" id="myModal" role="dialog">
+				<section class="modal-dialog">
 		
+		  		<!-- Modal content-->
+					<section class="modal-content">
+						<section class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+			  				<h4 class="modal-title">Wattpad</h4>
+						</section>
+						<section class="modal-body">
+							<p>Thanks for visiting.</p>
+						</section>
+						<section class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</section>
+					</section>
+				</section>
+			</section><!--end modal content-->
 
-</div>
-
-<!-- cards section-->	
-	<div class="container">		
-<!--featuresHeading-->
-<div class="row col-12" id="featuresHeading">
-	<div class="col-12  panel">
-		<h3><strong>get discovered</strong></h3>
-	</div><!-- end col-12 -->
-</div><!-- end featuresHeading -->
-
-<div class="row three-col" id="features">
-	
+	  	</section><!--end jumbotron--->
 		
-		<div class="col-sm-4 feature">
-		<div class="panel">
-			<div class="panel-heading">
-				<h4 class="panel-title"><a href="#">Writing Contests</a></h4>
-			</div><!-- end panel-heading -->
-			<img src="images/writing-contests.png" alt="HTML5" class="img-circle">
-			<p>Enter writing contests to get published, win awards, and partner with global brands</p>
-		</div><!-- end panel -->
-	</div><!-- end feature -->
-	
-	<div class="col-sm-4 feature">
-		<div class="panel">
-			<div class="panel-heading">
-				<h3 class="panel-title"><a href="#">the wattys</a></h3>
-			</div><!-- end panel-heading -->
-			<img src="images/wattys.png" alt="CSS3" class="img-circle">
-			<p>Wattpad’s annual awards program committed to celebrating the best stories around the world.</p>	
-			
-		</div><!-- end panel -->
-	</div><!-- end feature -->
-	
-	<div class="col-sm-4 feature">
-		<div class="panel">
-			<div class="panel-heading">
-				<h3 class="panel-title"><a href="#">Wattpad picks</a></h3>
-			</div><!-- end panel-heading -->
-			<img src="images/wp-picks.png" alt="Bootstrap 3" class="img-circle">
-			<p>Get featured on our hand-picked reading list.</p>			
-		</div><!-- end panel -->
-	</div><!-- end feature -->
-</div><!-- end features -->
-
-
-	</div>
-	
-
-<!----get discovered----->
-
-<div class="container">	
-
-<!--featuresHeading-->
-<div class="row col-12" id="featuresHeading">
-	<div class="col-12  panel">
-		<h3><strong>get discovered</strong></h3>
-	</div><!-- end col-12 -->
-</div><!-- end featuresHeading -->
-
-<div class="row two-col" id="features">
-	<div class="col-sm-5 feature">
-		<div class="panel">
-			<img src="images/pic_1_col_2.png" alt="novels">
-		</div><!-- end panel -->
-	</div><!-- end feature -->
-	
-	<div class="col-sm-7 feature">
-		<div class="panel">
-			<div class="panel-heading">
-				<h3 class="panel-title">
-					<h2><strong>Your original story could be the next blockbuster</strong></h2>
-				</h3>
-			</div><!-- end panel-heading -->
-			<p>Wattpad Studios discovers untapped, unsigned, and talented writers on Wattpad and connects them to global multi-media entertainment companies.&nbsp;<a href="#">Find out more..</a>
-			</p>
-			<h4><strong>SEE YOUR STORY...</strong></h4>
-			<div class="row col-7">
-				<p><img src="images/book.png" alt="book">&nbsp;Get published</p>
-				<p> <img src="images/reel.png" alt="book">&nbsp;Get produced to movie or film</p>
-					<p> <img src="images/tv.png" alt="book">&nbsp;Get adapted to a TV series</p>
-							</div>
-		</div><!-- end panel -->
-	</div><!-- end feature -->
-	
-</div><!-- end features -->
-
-	
-				
-
-<!--- tabbed pane --->
-<div class="container tabbed-pane">
-	<div class="tabbable">
-<ul class="nav nav-tabs" role="tablist">
- 	<li class="nav-item">
-  		 <a class="nav-link active" href="#profile" role="tab" data-toggle="tab">About</a>
- 	</li>
-
- 	<li class="nav-item">
- 	 	<a class="nav-link" href="#buzz" role="tab" data-toggle="tab">Our works</a>
- 	</li>
-
- 	<li class="nav-item">
-   		<a class="nav-link" href="#references" role="tab" data-toggle="tab">References</a>
- 	</li>
-
-</ul> 
-</div><!--end tabbed pane-->
-
-
-
-<div class="modal fade" id="myModal">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button class="close" data-dismiss="modal">&times;</button>
-				
-				<h4 class="modal-title">A Modal Window</h4>
-			</div><!-- end modal-header -->
-			<div class="modal-body">
-				<h4>Text in a modal</h4>
-				
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				
-				<h4>Popovers in a modal</h4>
-				<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it!" data-content="I knew you would.">Don't click this button</a>
-				
-				<h4>Tooltips in a modal</h4>
-				<a href="" data-original-title="Tooltip" rel="tooltip">This link</a> should have a tooltip, and so should <a href="#" data-original-title="Woohoo!" rel="tooltip">this one</a>!
-				
-				<hr>
-				
-				<p><small class="text-muted">PS. This form doesn't do anything. Just a heads up.</small></p>
-				
-				<form class="form-horizontal">
-					<div class="form-group">
-						<label class="col-lg-2 control-label" for="inputName">Name</label>
-						<div class="col-lg-10">
-							<input class="form-control" id="inputName" placeholder="Name" type="text">
-						</div>
-					</div>
-					
-					<div class="form-group">
-						<label class="col-lg-2 control-label" for="inputEmail">Email</label>
-						<div class="col-lg-10">
-							<input class="form-control" id="inputEmail" placeholder="Email" type="email">
-						</div>
-					</div>
-					
-					<div class="form-group">
-						<label class="col-lg-2 control-label" for="inputMessage">Message</label>
-						<div class="col-lg-10">
-							<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
-							<button class="btn btn-success pull-right" type="submit">Send!</button>
-						</div>
-					</div>
-				</form>
-			</div><!-- end modal-body -->
-			
-			<div class="modal-footer">
-				<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
-			</div><!-- end modal-footer -->
-		</div><!-- end modal-content -->
-	</div><!-- end modal-dialog -->
-</div><!-- end myModal -->
-
-
-</div>
-
-
-
-
-
-
 		<!---footer -section-->
 
 		<footer class="navbar navbar-light navbar-expand-sm navbar-expand-md navbar-expand-sm navbar-expand-xl bg-light fixed-bottom">
-	<div class="container">
-		<div class="row">
-			<div class="navbar-nav mr-auto mt-2 mt-lg-0">
-				<ul>
-					<li class="nav-item"><a href="#">get the app</a></li>
-					<li class="nav-item"><a href="#">about us</a></li>
-					<li class="nav-item"><a href="#">writers</a></li>
-					<li class="nav-item"><a href="#">business</a></li>
-					<li class="nav-item"><a href="#">jobs</a></li>
-					<li class="nav-item"><a href="#">press</a></li>
-					<li class="nav-item"><a href="#">terms</a></li>
-					<li class="nav-item"><a href="#">privacy</a></li>
-					<li class="nav-item"><a href="#">help</a></li>
-					<li class="nav-item">&copy;2019 shahina</li>
-				</ul>
-			</div>
-			
-		</div><!-- end row -->
-	</div><!-- end container -->
-</footer>
-<!--end footer-->
+			<div class="container">
+				<div class="row">
+					<div class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<ul>
+							<li class="nav-item"><a href="#">get the app</a></li>
+							<li class="nav-item"><a href="#">about us</a></li>
+							<li class="nav-item"><a href="#">writers</a></li>
+							<li class="nav-item"><a href="#">business</a></li>
+							<li class="nav-item"><a href="#">jobs</a></li>
+							<li class="nav-item"><a href="#">press</a></li>
+							<li class="nav-item"><a href="#">terms</a></li>
+							<li class="nav-item"><a href="#">privacy</a></li>
+							<li class="nav-item"><a href="#">help</a></li>
+							<li class="nav-item">&copy;2019 shahina</li>
+						</ul>
+					</div>	
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</footer>
+		<!--end footer-->
 
 
 
